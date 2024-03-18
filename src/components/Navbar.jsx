@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from "react"
-import { COMPANY_NAME, LOGO_IMG_1, LOGO_IMG_2, NAV_LINKS } from "../constants"
+import { COMPANY_NAME, LOGO_IMG_1, LOGO_IMG_2, NAV_LINKS, NAVLINK_GET_STARTED, NAVLINK_SCORE_CARD } from "../constants"
 import { useLocation, NavLink, Link } from "react-router-dom";
 
 function Navbar() {
@@ -80,10 +80,10 @@ function Navbar() {
                                     })
                                 }
                                 <li className="font-medium cursor-pointer py-2 px-4 bg-yellow-500 rounded-md text-black hover:bg-yellow-400 text-lg md:text-xl">
-                                    <button type="button" onClick={() => { navigate('/score-card') }}>Score Card</button>
+                                    <button type="button" onClick={() => { navigate(NAVLINK_SCORE_CARD.path) }}>{NAVLINK_SCORE_CARD.text}</button>
                                 </li>
                                 <li className="font-medium cursor-pointer py-2 px-4 bg-blue-500 rounded-md text-white hover:bg-blue-400">
-                                    <button type="button" onClick={() => { navigate('/get-started') }}>Get Started</button>
+                                    <button type="button" onClick={() => { navigate(NAVLINK_GET_STARTED.path) }}>{NAVLINK_GET_STARTED.text}</button>
                                 </li>
                             </ul>
                         </div>
@@ -100,10 +100,10 @@ function Navbar() {
                                 })
                             }
                             <li className="font-medium cursor-pointer py-2 px-4 bg-yellow-500 rounded-md text-black hover:bg-yellow-400">
-                                <NavLink to='/performance-score'>Performance Score</NavLink>
+                                <NavLink to={NAVLINK_SCORE_CARD.path}>{NAVLINK_SCORE_CARD.text}</NavLink>
                             </li>
                             <li className="font-medium cursor-pointer py-2 px-4 bg-blue-500 rounded-md text-white hover:bg-blue-400">
-                                <NavLink to='/get-started'>Get Started</NavLink>
+                                <NavLink to={NAVLINK_GET_STARTED.path}>{NAVLINK_GET_STARTED.text}</NavLink>
                             </li>
                         </ul>
                     </div>

@@ -3,11 +3,22 @@ export const LOGO_IMG_1 = require('./assets/logo-1.jpg');
 export const LOGO_IMG_2 = require('./assets/logo-2.jpg');
 export const NAV_LINKS = [
     { text: "Home", path: "/" },
+    { text: "Courses", path: "/courses" },
+    { text: "Features", path: "/features" },
     { text: "About", path: "/about" },
     { text: "Contact Us", path: "/contact" },
-    { text: "Courses", path: "/courses" },
     { text: "Join Us", path: "/join-us" }
 ];
+
+export const NAVLINK_GET_STARTED = {
+    text: "Get Started",
+    path: "/sign-in"
+}
+
+export const NAVLINK_SCORE_CARD = {
+    path: "/score-card",
+    text: "Score Card"
+}
 
 export const HERO_TYPING_TITLE = [
     "Unlock Your Potential.",
@@ -33,3 +44,5 @@ export const BG_IMG_3 = require('./assets/240_F_375321407_3CC7tryBap2FFbKCPYHlCv
 export const BG_IMG_4 = require('./assets/360_F_278522831_zqEbgmXc5QiQReIbytqggcRLTGdp8cix.jpg');
 export const BG_IMG_5 = require('./assets/pngtree-school-supplies-graduation-cap-border-blackboard-education-background-picture-image_1219927.jpg');
 export const BG_IMG_6 = require('./assets/science-technology-engineering-math-blue-frame_104589-263.avif');
+export const ABOUT_IMG = require('./assets/flat-university-concept_23-2148176380.avif');
+export const ABOUT_SVG = require('./assets/undraw_educator_re_ju47.svg');

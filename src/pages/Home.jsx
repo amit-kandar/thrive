@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Carousel from 'nuka-carousel';
-import { BG_IMG_1, BG_IMG_2, BG_IMG_3, BG_IMG_4, BG_IMG_5, BG_IMG_6, HERO_TYPING_TITLE, HERO_SUB_HEADING } from '../constants';
+import { BG_IMG_1, BG_IMG_2, BG_IMG_3, BG_IMG_4, BG_IMG_5, BG_IMG_6, HERO_TYPING_TITLE, HERO_SUB_HEADING, NAVLINK_GET_STARTED } from '../constants';
 import Typewriter from 'typewriter-effect';
 import About from './About';
 import Contact from './Contact';
@@ -46,6 +47,11 @@ function Home() {
                         <p className='text-sm text-gray-200/40'>
                             {HERO_SUB_HEADING}
                         </p>
+                    </div>
+                    <div className='mt-10 lg:mt-16'>
+                        <button type='button' className='px-8 py-3 bg-yellow-500 rounded-xl text-xl font-medium'>
+                            <Link to={NAVLINK_GET_STARTED.path}>{NAVLINK_GET_STARTED.text}</Link>
+                        </button>
                     </div>
                 </div>
             </section>
