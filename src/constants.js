@@ -28,10 +28,8 @@ export const HERO_SUB_HEADING = ""
 
 //images
 export const BG_IMG_1 = require('./assets/240_F_170055665_0wz6obwYZ3rk0m788vuIEk8WzIscfgVV.jpg');
-export const BG_IMG_2 = require('./assets/240_F_298890715_fPGHZWLGUwltVoEhjb50pvgo8tk05j0b.jpg');
-export const BG_IMG_3 = require('./assets/240_F_366456629_oMnJsVx7np1PZPw1UUNRQcbufWGa0Smf.jpg');
-export const BG_IMG_4 = require('./assets/240_F_373689376_7Y2d124ff49SRqvFTBixB1T6YWzymquj.jpg');
-export const BG_IMG_5 = require('./assets/240_F_375321407_3CC7tryBap2FFbKCPYHlCvvjZ72Kw1up.jpg');
-export const BG_IMG_6 = require('./assets/1000_F_200118749_rA5PKAUDD0xeB44ZstUclNdevoGsvnwd.jpg');
-export const BG_IMG_7 = require('./assets/1000_F_243227135_0MKgZJefxBmaClJmhFdgfSByHI4n8UVy.jpg');
-export const BG_IMG_8 = require('./assets/AdobeStock_298890723_Preview.jpeg');
+export const BG_IMG_2 = require('./assets/1.geometric-science-education-background-vector-gradient-blue-digital-remix_53876-125993.jpg');
+export const BG_IMG_3 = require('./assets/240_F_375321407_3CC7tryBap2FFbKCPYHlCvvjZ72Kw1up.jpg');
+export const BG_IMG_4 = require('./assets/360_F_278522831_zqEbgmXc5QiQReIbytqggcRLTGdp8cix.jpg');
+export const BG_IMG_5 = require('./assets/pngtree-school-supplies-graduation-cap-border-blackboard-education-background-picture-image_1219927.jpg');
+export const BG_IMG_6 = require('./assets/science-technology-engineering-math-blue-frame_104589-263.avif');
