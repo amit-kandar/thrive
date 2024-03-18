@@ -1,13 +1,29 @@
 import { useState, useRef, useEffect } from "react"
-import { LOGO_IMG_1, LOGO_IMG_2, NAV_LINKS } from "../constants"
-import { Link, NavLink } from "react-router-dom";
+import { COMPANY_NAME, LOGO_IMG_1, LOGO_IMG_2, NAV_LINKS } from "../constants"
+import { useLocation, NavLink, Link } from "react-router-dom";
 
 function Navbar() {
-    const ref = useRef(null);
     const [isShow, setIsShow] = useState(false);
+    const [isScroll, setIsScroll] = useState(false);
+    const ref = useRef(null);
+    const navigate = useLocation();
     const handleShow = () => {
         setIsShow(!isShow);
     }
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const scrollPosition = window.scrollY;
+            const offset = 90;
+            setIsScroll(scrollPosition > offset);
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
 
     useEffect(() => {
         const handleClickOutside = (event) => {
@@ -23,7 +39,7 @@ function Navbar() {
     }, []);
 
     return (
-        <nav className="fixed z-50 w-full">
+        <nav className={`fixed z-50 w-full ${isScroll ? "bg-white text-black" : 'bg-transparent'}`}>
             <div className="w-full flex justify-between items-center border-b px-5 sm:px-10 py-3">
                 {/* logo and name */}
                 <Link to="/">
@@ -44,16 +60,14 @@ function Navbar() {
                         }
                     </div>
                     <div className={`absolute w-3/5 h-screen bg-white top-0 left-0 z-50 px-4 py-5 ${isShow ? '-translate-x-0' : '-translate-x-full'} transition-transform duration-300 ease-in-out`}>
-                        <div className="w-full flex justify-between items-center">
+                        <div className="w-full flex justify-start items-center gap-2 border-b border-gray-400 pb-5">
                             <div className="w-10 h-10">
                                 <img src={LOGO_IMG_1} alt="thrive" title="thrive" className="w-full h-full rounded-full block dark:hidden" />
                                 <img src={LOGO_IMG_2} alt="thrive" title="thrive" className="w-full h-full rounded-full hidden dark:block" />
                             </div>
-                            {/* <div onClick={handleShow}>
-                                <i className='bx bx-x text-3xl font-medium' ></i>
-                            </div> */}
+                            <span className="text-gray-600 text-2xl font-semibold uppercase">{COMPANY_NAME}</span>
                         </div>
-                        <div className="mt-10">
+                        <div className="mt-5">
                             <ul className="flex flex-col items-start gap-3">
                                 {
                                     NAV_LINKS.map((navlink, index) => {
@@ -64,21 +78,21 @@ function Navbar() {
                                         )
                                     })
                                 }
-                                <li className="font-medium cursor-pointer py-2 px-3 bg-yellow-500 rounded-md text-black hover:bg-yellow-400 text-base md:text-xl">
-                                    <NavLink to='/performance-score'>Performance Score</NavLink>
+                                <li className="font-medium cursor-pointer py-2 px-3 bg-yellow-500 rounded-md text-black hover:bg-yellow-400 text-lg md:text-xl">
+                                    <button type="button" onClick={() => { navigate('/score-card') }}>Score Card</button>
                                 </li>
                                 <li className="font-medium cursor-pointer py-2 px-4 bg-blue-500 rounded-md text-white hover:bg-blue-400">
-                                    <NavLink to='/get-started'>Get Started</NavLink>
+                                    <button type="button" onClick={() => { navigate('/get-started') }}>Get Started</button>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div className="hidden md:block">
-                        <ul className="flex items-center justify-evenly gap-3">
+                        <ul className="flex items-center justify-evenly gap-5">
                             {
                                 NAV_LINKS.map((navlink, index) => {
                                     return (
-                                        <li key={index} className="font-medium cursor-pointer text-white">
+                                        <li key={index} className={`font-medium cursor-pointer ${isScroll ? 'text-black' : 'text-white'}`}>
                                             <NavLink to={navlink.path}>{navlink.text}</NavLink>
                                         </li>
                                     )

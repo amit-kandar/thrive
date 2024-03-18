@@ -22,7 +22,7 @@ export const HERO_TYPING_TITLE = [
     "Empowering Minds, One Lesson at a Time."
 ];
 
-export const HERO_SUB_HEADING = ""
+export const HERO_SUB_HEADING = "Embark on a Journey of Discovery and Growth: Where Learning Meets Innovation, Inspiring You to Explore, Engage, and Excel in Every Endeavor."
 
 
 

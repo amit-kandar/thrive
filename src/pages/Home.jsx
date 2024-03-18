@@ -1,8 +1,9 @@
 import React from 'react';
 import Carousel from 'nuka-carousel';
-import { BG_IMG_1, BG_IMG_2, BG_IMG_3, BG_IMG_4, BG_IMG_5, HERO_TYPING_TITLE } from '../constants';
-import About from './About';
+import { BG_IMG_1, BG_IMG_2, BG_IMG_3, BG_IMG_4, BG_IMG_5, BG_IMG_6, HERO_TYPING_TITLE, HERO_SUB_HEADING } from '../constants';
 import Typewriter from 'typewriter-effect';
+import About from './About';
+import Contact from './Contact';
 
 
 
@@ -12,7 +13,8 @@ function Home() {
         BG_IMG_2,
         BG_IMG_3,
         BG_IMG_4,
-        BG_IMG_5
+        BG_IMG_5,
+        BG_IMG_6
     ];
 
     return (
@@ -30,7 +32,7 @@ function Home() {
                     </Carousel>
                     <div className="absolute inset-0 bg-black opacity-50"></div>
                 </div>
-                <div className='max-w-7xl h-full z-10 flex flex-col justify-center items-center px-3 sm:px-5 mt-32 md:mt-36'>
+                <div className='max-w-5xl h-full z-10 flex flex-col justify-center items-start px-3 sm:px-5 mt-32 md:mt-36'>
                     <div className='text-3xl md:text-5xl xl:text-6xl text-white font-bold mt-10'>
                         <Typewriter
                             options={{
@@ -40,9 +42,15 @@ function Home() {
                             }}
                         />
                     </div>
+                    <div className='mt-5 max-w-2xl'>
+                        <p className='text-sm text-gray-200/40'>
+                            {HERO_SUB_HEADING}
+                        </p>
+                    </div>
                 </div>
             </section>
             <About />
+            <Contact />
         </main>
     );
 }
