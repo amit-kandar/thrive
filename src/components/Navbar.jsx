@@ -53,7 +53,7 @@ function Navbar() {
 
                 {/* navlink */}
                 <div className="" ref={ref}>
-                    <div className="lg:hidden text-white" onClick={handleShow}>
+                    <div className={`lg:hidden ${isScroll ? 'text-black' : 'text-white'}`} onClick={handleShow}>
                         {
                             isShow
                                 ? <i className='bx bx-x text-3xl font-medium' ></i>
@@ -79,7 +79,7 @@ function Navbar() {
                                         )
                                     })
                                 }
-                                <li className="font-medium cursor-pointer py-2 px-3 bg-yellow-500 rounded-md text-black hover:bg-yellow-400 text-lg md:text-xl">
+                                <li className="font-medium cursor-pointer py-2 px-4 bg-yellow-500 rounded-md text-black hover:bg-yellow-400 text-lg md:text-xl">
                                     <button type="button" onClick={() => { navigate('/score-card') }}>Score Card</button>
                                 </li>
                                 <li className="font-medium cursor-pointer py-2 px-4 bg-blue-500 rounded-md text-white hover:bg-blue-400">
