@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 function About() {
     return (
-        <div>About</div>
+        <div className='pt-16'>
+            <div>
+            </div>
+        </div>
     )
 }
 

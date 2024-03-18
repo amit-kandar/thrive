@@ -9,6 +9,22 @@ export const NAV_LINKS = [
     { text: "Join Us", path: "/join-us" }
 ];
 
+export const HERO_TYPING_TITLE = [
+    "Unlock Your Potential.",
+    "Empower Your Learning Journey.",
+    "Ignite Your Passion for Knowledge.",
+    "Inspire Learning Excellence.",
+    "Fuel Your Educational Drive.",
+    "Elevate Your Learning Experience.",
+    "Discover the Joy of Learning.",
+    "Fueling Curiosity, Fostering Growth.",
+    "Transforming Education, One Click at a Time.",
+    "Empowering Minds, One Lesson at a Time."
+];
+
+export const HERO_SUB_HEADING = ""
+
+
 
 //images
 export const BG_IMG_1 = require('./assets/240_F_170055665_0wz6obwYZ3rk0m788vuIEk8WzIscfgVV.jpg');
