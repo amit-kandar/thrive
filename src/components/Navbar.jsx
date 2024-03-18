@@ -42,24 +42,25 @@ function Navbar() {
         <nav className={`fixed z-50 w-full ${isScroll ? "bg-white text-black" : 'bg-transparent'}`}>
             <div className="w-full flex justify-between items-center border-b px-5 sm:px-10 py-3">
                 {/* logo and name */}
-                <Link to="/">
+                <Link to="/" className="flex items-center gap-3">
                     {/* logo */}
                     <div className="w-10 h-10">
                         <img src={LOGO_IMG_1} alt="thrive" title="thrive" className="w-full h-full rounded-full block dark:hidden" />
                         <img src={LOGO_IMG_2} alt="thrive" title="thrive" className="w-full h-full rounded-full hidden dark:block" />
                     </div>
+                    <span className={`hidden lg:block text-gray-100 text-2xl font-semibold uppercase ${isScroll && 'text-gray-800'}`}>{COMPANY_NAME}</span>
                 </Link>
 
                 {/* navlink */}
                 <div className="" ref={ref}>
-                    <div className="md:hidden text-white" onClick={handleShow}>
+                    <div className="lg:hidden text-white" onClick={handleShow}>
                         {
                             isShow
                                 ? <i className='bx bx-x text-3xl font-medium' ></i>
                                 : <i className='bx bx-menu text-3xl font-medium'></i>
                         }
                     </div>
-                    <div className={`absolute w-3/5 h-screen bg-white top-0 left-0 z-50 px-4 py-5 ${isShow ? '-translate-x-0' : '-translate-x-full'} transition-transform duration-300 ease-in-out`}>
+                    <div className={`lg:hidden absolute w-3/5 h-screen bg-white top-0 left-0 z-50 px-4 py-5 ${isShow ? '-translate-x-0' : '-translate-x-full'} transition-transform duration-300 ease-in-out`}>
                         <div className="w-full flex justify-start items-center gap-2 border-b border-gray-400 pb-5">
                             <div className="w-10 h-10">
                                 <img src={LOGO_IMG_1} alt="thrive" title="thrive" className="w-full h-full rounded-full block dark:hidden" />
@@ -68,7 +69,7 @@ function Navbar() {
                             <span className="text-gray-600 text-2xl font-semibold uppercase">{COMPANY_NAME}</span>
                         </div>
                         <div className="mt-5">
-                            <ul className="flex flex-col items-start gap-3">
+                            <ul className="flex flex-col items-center gap-3">
                                 {
                                     NAV_LINKS.map((navlink, index) => {
                                         return (
@@ -87,7 +88,7 @@ function Navbar() {
                             </ul>
                         </div>
                     </div>
-                    <div className="hidden md:block">
+                    <div className="hidden lg:block">
                         <ul className="flex items-center justify-evenly gap-5">
                             {
                                 NAV_LINKS.map((navlink, index) => {
