@@ -4,9 +4,9 @@ import { ABOUT_SUB_HEADING, ABOUT_TITLE, SECTION_BG_IMG, ABOUT_IMG, aboutUsPoint
 function About() {
     return (
         <section className='w-full' style={{ backgroundImage: `url(${SECTION_BG_IMG})`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
-            <div className='w-full h-full flex justify-center px-5' style={{ backgroundColor: 'rgba(247, 252, 197, 0.3)' }}>
+            <div className='w-full h-full flex justify-center px-5 pt-10 lg:pt-0' style={{ backgroundColor: 'rgba(247, 252, 197, 0.3)' }}>
                 <div className='w-full h-full flex flex-col lg:flex-row justify-between items-center pt-10 md:pt-0 sm:px-5 lg:px-16'>
-                    <div className="w-full h-full flex flex-col justify-start items-start">
+                    <div className="max-w-5xl lg:w-full h-full flex flex-col justify-start items-start">
                         <h1 className="text-4xl md:text-6xl font-bold text-gray-600">{ABOUT_TITLE}</h1>
                         <span className="text-lg text-start text-gray-500 mt-2">{ABOUT_SUB_HEADING}</span>
                         <div className='mt-5'>
