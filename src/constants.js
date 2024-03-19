@@ -105,3 +105,7 @@ export const BG_IMG_6 = require('./assets/science-technology-engineering-math-bl
 export const ABOUT_IMG = require('./assets/5836-removebg-preview.png');
 export const ABOUT_SVG = require('./assets/undraw_educator_re_ju47.svg');
 export const SECTION_BG_IMG = require('./assets/uniquefeatures-bg.jpg');
+export const CHAPTERS_ICON = require('./assets/list.png');
+export const QUESTIONS = require('./assets/question-mark.png');
+export const NOTES = require('./assets/pencil.png');
+export const CONCEPT_MAPS = require('./assets/circuit.png');
