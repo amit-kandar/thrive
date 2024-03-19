@@ -77,6 +77,24 @@ export const aboutUsPoints = [
     "Education landscape transformers."
 ];
 
+export const WHY_US_TITLE = "Why Choose Us";
+export const WHY_US_SUB_TITLE = "Elevate Your Experience: Unveiling Our Unique Advantages and Commitment";
+
+export const WHY_CHOOSE_US_POINT1 = {
+    title: "Exceptional Quality",
+    description: "Experience unparalleled quality in education delivery and support services."
+}
+export const WHY_CHOOSE_US_POINT2 = {
+    title: "Personalized Approach",
+    description: "Benefit from tailored learning paths and personalized guidance for every learner."
+}
+export const WHY_CHOOSE_US_POINT3 = {
+    title: "Community Engagement",
+    description: "Join a vibrant community of learners, educators, and mentors for collaborative growth."
+}
+
+
+
 //images
 export const BG_IMG_1 = require('./assets/240_F_170055665_0wz6obwYZ3rk0m788vuIEk8WzIscfgVV.jpg');
 export const BG_IMG_2 = require('./assets/1.geometric-science-education-background-vector-gradient-blue-digital-remix_53876-125993.jpg');

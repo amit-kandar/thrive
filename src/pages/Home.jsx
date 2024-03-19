@@ -7,6 +7,7 @@ import About from './About';
 import Contact from './Contact';
 import Courses from './Courses';
 import Features from './Features';
+import WhyUs from './WhyUs';
 
 
 
@@ -59,6 +60,7 @@ function Home() {
             </section>
             <Courses />
             <Features />
+            <WhyUs />
             <About />
             <Contact />
         </main>
