@@ -5,6 +5,8 @@ import { BG_IMG_1, BG_IMG_2, BG_IMG_3, BG_IMG_4, BG_IMG_5, BG_IMG_6, HERO_TYPING
 import Typewriter from 'typewriter-effect';
 import About from './About';
 import Contact from './Contact';
+import Courses from './Courses';
+import Features from './Features';
 
 
 
@@ -55,6 +57,8 @@ function Home() {
                     </div>
                 </div>
             </section>
+            <Courses />
+            <Features />
             <About />
             <Contact />
         </main>
