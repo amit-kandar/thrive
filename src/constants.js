@@ -97,6 +97,10 @@ export const DATA_CHAPTERS = "Chapters";
 export const DATA_QUESTIONS = "Questions";
 export const DATA_NOTES = "Notes";
 export const DATA_CONCEPT_MAP = "Concept Map"
+export const TOTAL_CHAPTERS = 521;
+export const TOTAL_QUESTIONS = 49647;
+export const TOTAL_NOTES = 4963;
+export const TOTAL_CONCEPT_MAP = 827;
 
 export const BOOK_DEMO_TITLE = "Why Thrive is a best option?"
 export const BOOK_DEMO_DESCRIPTION = "Thrive is a platform where we provide live sessions at a very affordable cost so that everyone can enroll here to improve their communication skills."

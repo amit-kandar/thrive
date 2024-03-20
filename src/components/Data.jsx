@@ -1,5 +1,5 @@
 import React from 'react';
-import { SECTION_BG_IMG, CHAPTERS_ICON, QUESTIONS, NOTES, CONCEPT_MAPS, DATA_CHAPTERS, DATA_QUESTIONS, DATA_NOTES, DATA_CONCEPT_MAP } from '../constants';
+import { SECTION_BG_IMG, CHAPTERS_ICON, QUESTIONS, NOTES, CONCEPT_MAPS, DATA_CHAPTERS, DATA_QUESTIONS, DATA_NOTES, DATA_CONCEPT_MAP, TOTAL_CONCEPT_MAP, TOTAL_NOTES, TOTAL_CHAPTERS, TOTAL_QUESTIONS } from '../constants';
 import DynamicCouter from './DynamicCouter';
 
 function Data() {
@@ -14,7 +14,7 @@ function Data() {
                         <div className='flex flex-col items-center gap-1'>
                             <h1 className='text-xl text-gray-700 font-medium'>{DATA_CHAPTERS}</h1>
                             <span className='text-4xl font-semibold'>
-                                <DynamicCouter initialValue={100} targetValue={521} />
+                                <DynamicCouter initialValue={100} targetValue={TOTAL_CHAPTERS} />
                             </span>
                         </div>
                     </div>
@@ -25,7 +25,7 @@ function Data() {
                         <div className='flex flex-col items-center gap-1'>
                             <h1 className='text-xl text-gray-700 font-medium'>{DATA_QUESTIONS}</h1>
                             <span className='text-4xl font-semibold'>
-                                <DynamicCouter initialValue={10000} targetValue={49647} />
+                                <DynamicCouter initialValue={10000} targetValue={TOTAL_QUESTIONS} />
                             </span>
                         </div>
                     </div>
@@ -36,7 +36,7 @@ function Data() {
                         <div className='flex flex-col items-center gap-1'>
                             <h1 className='text-xl text-gray-700 font-medium'>{DATA_NOTES}</h1>
                             <span className='text-4xl font-semibold'>
-                                <DynamicCouter initialValue={1000} targetValue={4963} />
+                                <DynamicCouter initialValue={1000} targetValue={TOTAL_NOTES} />
                             </span>
                         </div>
                     </div>
@@ -47,7 +47,7 @@ function Data() {
                         <div className='flex flex-col items-center gap-1'>
                             <h1 className='text-xl text-gray-700 font-medium'>{DATA_CONCEPT_MAP}</h1>
                             <span className='text-4xl font-semibold'>
-                                <DynamicCouter initialValue={100} targetValue={827} />
+                                <DynamicCouter initialValue={100} targetValue={TOTAL_CONCEPT_MAP} />
                             </span>
                         </div>
                     </div>
