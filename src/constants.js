@@ -93,6 +93,10 @@ export const WHY_CHOOSE_US_POINT3 = {
     description: "Join a vibrant community of learners, educators, and mentors for collaborative growth."
 }
 
+export const DATA_CHAPTERS = "Chapters";
+export const DATA_QUESTIONS = "Questions";
+export const DATA_NOTES = "Notes";
+export const DATA_CONCEPT_MAP = "Concept Map"
 
 export const BOOK_DEMO_TITLE = "Why Thrive is a best option?"
 export const BOOK_DEMO_DESCRIPTION = "Thrive is a platform where we provide live sessions at a very affordable cost so that everyone can enroll here to improve their communication skills."
