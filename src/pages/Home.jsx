@@ -9,6 +9,7 @@ import Courses from './Courses';
 import Features from './Features';
 import WhyUs from './WhyUs';
 import Data from '../components/Data';
+import BookDemo from '../components/BookDemo';
 
 
 
@@ -63,6 +64,7 @@ function Home() {
             <Features />
             <WhyUs />
             <Data />
+            <BookDemo />
             <About />
             <Contact />
         </main>

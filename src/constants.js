@@ -94,6 +94,10 @@ export const WHY_CHOOSE_US_POINT3 = {
 }
 
 
+export const BOOK_DEMO_TITLE = "Why Thrive is a best option?"
+export const BOOK_DEMO_DESCRIPTION = "Thrive is a platform where we provide live sessions at a very affordable cost so that everyone can enroll here to improve their communication skills."
+export const BOOK_DEMO_BUTTON_TEXT = "Book Demo"
+
 
 //images
 export const BG_IMG_1 = require('./assets/240_F_170055665_0wz6obwYZ3rk0m788vuIEk8WzIscfgVV.jpg');
@@ -109,3 +113,5 @@ export const CHAPTERS_ICON = require('./assets/list.png');
 export const QUESTIONS = require('./assets/question-mark.png');
 export const NOTES = require('./assets/pencil.png');
 export const CONCEPT_MAPS = require('./assets/circuit.png');
+export const BOOK_DEMO_BG = require('./assets/photo-1522199899308-2eef382e2158.avif');
+export const BOOK_DEMO_IMG = require('./assets/pexels-anna-shvets-4226122.jpg');
