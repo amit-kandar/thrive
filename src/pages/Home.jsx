@@ -13,6 +13,7 @@ import BookDemo from '../components/BookDemo';
 import OurFaculties from '../components/OurFaculties';
 import FAQ from '../components/FAQ';
 import SuccessStories from '../components/SuccessStories';
+import Subscribe from '../components/Subscribe';
 
 
 
@@ -72,6 +73,7 @@ function Home() {
             <OurFaculties />
             <FAQ />
             <SuccessStories />
+            <Subscribe />
             <Contact />
         </main>
     );

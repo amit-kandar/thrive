@@ -102,6 +102,11 @@ export const FAQ_SUB_TITLE = "Explore answers to common inquiries about our educ
 export const SUCCESS_STORIES_TITLE = "Inspiring Success Stories"
 export const SUCCESS_STORIES_SUB_TITLE = "Discover How Our Students Mastered Spoken English"
 
+export const SUBSCRIBE_TITLE = "Subscribe";
+export const SUBSCRIBE_SUBTITLE = "Share your email id for regular updates.";
+export const SUBSCRIBE_PLACEHOLDER = "Enter your email";
+export const SUBSCRIBE_BUTTON_TEXT = "Subscribe"
+
 export const DATA_CHAPTERS = "Chapters";
 export const DATA_QUESTIONS = "Questions";
 export const DATA_NOTES = "Notes";
