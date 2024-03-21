@@ -8,6 +8,15 @@ module.exports = {
       fontFamily: {
         roboto: ['Roboto', 'sans'],
       },
+      animation: {
+        "slide": "slide 25s infinite linear"
+      },
+      keyframes: {
+        slide: {
+          "from": { transform: "translateX(0)" },
+          "to": { transform: "translateX(-100%)" }
+        }
+      }
     },
   },
   plugins: [],
