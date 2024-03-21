@@ -1,6 +1,8 @@
 import React from 'react'
 import InfiniteMovingCards from './InfiniteMovingCards'
 import { FACULTY_SUB_TITLE, FACULTY_TITLE } from '../constants'
+import { facultyDetails } from '../utils/facultyDetails';
+import FacultyCard from './FacultyCard';
 
 function OurFaculties() {
     return (
@@ -10,7 +12,7 @@ function OurFaculties() {
                 <h3 className='text-sm text-center md:text-base lg:text-xl text-yellow-400/80'>{FACULTY_SUB_TITLE}</h3>
             </div>
             <div className='w-full mt-10 lg:mt-20'>
-                <InfiniteMovingCards />
+                <InfiniteMovingCards Card={FacultyCard} data={facultyDetails} />
             </div>
         </section>
     )
