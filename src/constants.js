@@ -99,6 +99,9 @@ export const FACULTY_SUB_TITLE = 'Meet Our Distinguished Educators and Researche
 export const FAQ_TITLE = "FAQ"
 export const FAQ_SUB_TITLE = "Explore answers to common inquiries about our educational platform"
 
+export const SUCCESS_STORIES_TITLE = "Inspiring Success Stories"
+export const SUCCESS_STORIES_SUB_TITLE = "Discover How Our Students Mastered Spoken English"
+
 export const DATA_CHAPTERS = "Chapters";
 export const DATA_QUESTIONS = "Questions";
 export const DATA_NOTES = "Notes";
