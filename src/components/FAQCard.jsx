@@ -6,7 +6,7 @@ function FAQCard({ question, answer }) {
         <div className='w-full max-w-md h-auto border-b border-black pb-3'>
             <div className='w-full flex justify-between gap-5'>
                 <h2 className='text-lg sm:text-xl font-medium'>{question}</h2>
-                <div onClick={() => { setIsOpen(!isOpen) }}>
+                <div className='cursor-pointer' onClick={() => { setIsOpen(!isOpen) }}>
                     {
                         isOpen
                             ? <i className='bx bx-chevron-up text-3xl' ></i>
