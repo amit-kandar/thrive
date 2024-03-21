@@ -96,6 +96,9 @@ export const WHY_CHOOSE_US_POINT3 = {
 export const FACULTY_TITLE = 'Faculty Excellence'
 export const FACULTY_SUB_TITLE = 'Meet Our Distinguished Educators and Researchers'
 
+export const FAQ_TITLE = "Frequently Asked Questions"
+export const FAQ_SUB_TITLE = "Explore answers to common inquiries about our educational platform"
+
 export const DATA_CHAPTERS = "Chapters";
 export const DATA_QUESTIONS = "Questions";
 export const DATA_NOTES = "Notes";

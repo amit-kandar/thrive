@@ -11,6 +11,7 @@ import WhyUs from './WhyUs';
 import Data from '../components/Data';
 import BookDemo from '../components/BookDemo';
 import OurFaculties from '../components/OurFaculties';
+import FAQ from '../components/FAQ';
 
 
 
@@ -68,6 +69,7 @@ function Home() {
             <BookDemo />
             <About />
             <OurFaculties />
+            <FAQ />
             <Contact />
         </main>
     );
