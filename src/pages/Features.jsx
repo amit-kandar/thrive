@@ -4,8 +4,8 @@ import FeatureCard from '../components/FeatureCard';
 
 function Features() {
     return (
-        <section className='w-full h-auto' style={{ backgroundImage: `url(${SECTION_BG_IMG})`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
-            <div className='w-full h-full px-5 py-10' style={{ backgroundColor: 'rgba(145, 197, 255, 0.3)' }}>
+        <section className='w-full' style={{ backgroundImage: `url(${SECTION_BG_IMG})`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
+            <div className='w-full h-full px-5 py-24' style={{ backgroundColor: 'rgba(145, 197, 255, 0.3)' }}>
                 <div className="flex flex-col justify-center items-center">
                     <h1 className="text-4xl md:text-6xl font-bold text-gray-600">{FEATURE_TITLE}</h1>
                     <span className="text-base text-center md:text-lg text-gray-500">{FEATURE_SUB_HEADING}</span>
