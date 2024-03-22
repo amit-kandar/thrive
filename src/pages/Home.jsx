@@ -5,7 +5,6 @@ import { BG_IMG_1, BG_IMG_2, BG_IMG_3, BG_IMG_4, BG_IMG_5, BG_IMG_6, HERO_TYPING
 import Typewriter from 'typewriter-effect';
 import About from './About';
 import Courses from './Courses';
-import Features from './Features';
 import WhyUs from './WhyUs';
 import Data from '../components/Data';
 import BookDemo from '../components/BookDemo';
@@ -13,6 +12,7 @@ import OurFaculties from '../components/OurFaculties';
 import FAQ from '../components/FAQ';
 import SuccessStories from '../components/SuccessStories';
 import Subscribe from '../components/Subscribe';
+import PricingPlan from './PricingPlan';
 
 
 
@@ -64,7 +64,7 @@ function Home() {
                 </div>
             </section>
             <Courses />
-            <Features />
+            <PricingPlan />
             <WhyUs />
             <Data />
             <BookDemo />

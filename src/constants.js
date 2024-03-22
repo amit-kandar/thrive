@@ -8,7 +8,7 @@ export const OUR_COURSES_TEXT = "Our Courses";
 export const NAV_LINKS = [
     { text: "Home", path: "/" },
     { text: "Courses", path: "/courses" },
-    { text: "Features", path: "/features" },
+    { text: "Pricing Plan", path: "/pricing-plan" },
     { text: "About", path: "/about" },
     { text: "Contact Us", path: "/contact" },
     { text: "Join Us", path: "/join-us" }
@@ -44,6 +44,9 @@ export const CONTACT_SUB_HEADING = "Crestest offers a wide range of preparatory 
 
 export const FEATURE_TITLE = "Features"
 export const FEATURE_SUB_HEADING = "Unleash the Full Potential of Thrive with These Cutting-edge Features";
+export const PRICING_SECTION_TITLE = "Our Pricing Plans";
+export const PRICING_SECTION_SUBTITLE = "Choose the perfect plan for your English learning journey.";
+
 
 export const ABOUT_TITLE = "About Us";
 export const ABOUT_SUB_HEADING = "Empowering Futures, Enriching Minds: Discover Our Story"
