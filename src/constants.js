@@ -1,6 +1,10 @@
 export const COMPANY_NAME = "Thrive";
+export const COMPANY_ABOUT = "Stay in the loop with our latest updates! Subscribe to our newsletter for exclusive content and offers.";
+export const COMPANY_ADDRESS = "123 Main Street, Cityville, Country XYZ.";
 export const LOGO_IMG_1 = require('./assets/logo-1.jpg');
 export const LOGO_IMG_2 = require('./assets/logo-2.jpg');
+export const OUR_COMPANY_TEXT = "Our Company"
+export const OUR_COURSES_TEXT = "Our Courses";
 export const NAV_LINKS = [
     { text: "Home", path: "/" },
     { text: "Courses", path: "/courses" },

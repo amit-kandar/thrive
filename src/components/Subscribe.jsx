@@ -1,7 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { SECTION_BG_IMG, SUBSCRIBE_BUTTON_TEXT, SUBSCRIBE_PLACEHOLDER, SUBSCRIBE_SUBTITLE, SUBSCRIBE_TITLE } from '../constants';
 
 function Subscribe() {
+    const [input, setInput] = useState();
+
+    const handleChange = (e) => {
+        e.preventDefault();
+        setInput(e.target.value);
+    }
+
+    const handleSubmit = () => {
+        console.log(input);
+        setInput('');
+    }
+
     return (
         <section className='w-full h-60' style={{ backgroundImage: `url(${SECTION_BG_IMG})`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
             <div className='w-full h-full flex justify-center flex-col px-5 md:px-10 xl:px-20 py-10 lg:py-16 bg-yellow-400/60'>
@@ -14,8 +26,8 @@ function Subscribe() {
                             {SUBSCRIBE_SUBTITLE}
                         </h3>
                     </div>
-                    <form className='border border-black rounded-md'>
-                        <input type="email" name="email" id="email" className='pl-3 w-44 sm:w-52 md:w-60 lg:w-72 sm:pl-5 py-3 outline-none rounded-md' placeholder={SUBSCRIBE_PLACEHOLDER} />
+                    <form className='border border-black rounded-md' onSubmit={handleSubmit}>
+                        <input type="email" name="email" id="email" className='pl-3 w-44 sm:w-52 md:w-60 lg:w-72 sm:pl-5 py-3 outline-none rounded-md' placeholder={SUBSCRIBE_PLACEHOLDER} value={input} onChange={handleChange} />
                         <button type='submit' className='px-2 md:px-6 py-3 bg-yellow-400 rounded-md'>{SUBSCRIBE_BUTTON_TEXT}</button>
                     </form>
                 </div>

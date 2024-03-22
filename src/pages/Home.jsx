@@ -4,7 +4,6 @@ import Carousel from 'nuka-carousel';
 import { BG_IMG_1, BG_IMG_2, BG_IMG_3, BG_IMG_4, BG_IMG_5, BG_IMG_6, HERO_TYPING_TITLE, HERO_SUB_HEADING, NAVLINK_GET_STARTED } from '../constants';
 import Typewriter from 'typewriter-effect';
 import About from './About';
-import Contact from './Contact';
 import Courses from './Courses';
 import Features from './Features';
 import WhyUs from './WhyUs';
@@ -74,7 +73,6 @@ function Home() {
             <FAQ />
             <SuccessStories />
             <Subscribe />
-            <Contact />
         </>
     );
 }
