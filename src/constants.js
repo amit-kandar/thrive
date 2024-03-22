@@ -1,5 +1,5 @@
 export const COMPANY_NAME = "Thrive";
-export const COMPANY_ABOUT = "Stay in the loop with our latest updates! Subscribe to our newsletter for exclusive content and offers.";
+export const COMPANY_ABOUT = "Stay connected and enhance your English learning journey! Subscribe to our newsletter for exclusive content, updates, and special offers.";
 export const COMPANY_ADDRESS = "123 Main Street, Cityville, Country XYZ.";
 export const LOGO_IMG_1 = require('./assets/logo-1.jpg');
 export const LOGO_IMG_2 = require('./assets/logo-2.jpg');
@@ -25,16 +25,16 @@ export const NAVLINK_SCORE_CARD = {
 }
 
 export const HERO_TYPING_TITLE = [
-    "Unlock Your Potential.",
-    "Empower Your Learning Journey.",
-    "Ignite Your Passion for Knowledge.",
-    "Inspire Learning Excellence.",
-    "Fuel Your Educational Drive.",
-    "Elevate Your Learning Experience.",
-    "Discover the Joy of Learning.",
-    "Fueling Curiosity, Fostering Growth.",
-    "Transforming Education, One Click at a Time.",
-    "Empowering Minds, One Lesson at a Time."
+    "Polish Your English Proficiency.",
+    "Master the Art of Spoken English.",
+    "Refine Your English Communication.",
+    "Enhance Your English Speaking Skills.",
+    "Speak English Fluently with Confidence.",
+    "Improve Your English Pronunciation.",
+    "Unlock the Power of Fluent English.",
+    "Excel in Conversational English.",
+    "Elevate Your Spoken English Ability.",
+    "Speak English Naturally and Effectively."
 ];
 
 export const HERO_SUB_HEADING = "Embark on a Journey of Discovery and Growth: Where Learning Meets Innovation, Inspiring You to Explore, Engage, and Excel in Every Endeavor."
@@ -84,10 +84,10 @@ export const SUBSCRIBE_SUBTITLE = "Share your email id for regular updates.";
 export const SUBSCRIBE_PLACEHOLDER = "Enter your email";
 export const SUBSCRIBE_BUTTON_TEXT = "Subscribe"
 
-export const DATA_CHAPTERS = "Chapters";
-export const DATA_QUESTIONS = "Questions";
-export const DATA_NOTES = "Notes";
-export const DATA_CONCEPT_MAP = "Concept Map"
+export const DATA_CHAPTERS = "Lessons";
+export const DATA_QUESTIONS = "Practice Questions";
+export const DATA_NOTES = "Study Materials";
+export const DATA_CONCEPT_MAP = "Language Map";
 export const TOTAL_CHAPTERS = 521;
 export const TOTAL_QUESTIONS = 49647;
 export const TOTAL_NOTES = 4963;
