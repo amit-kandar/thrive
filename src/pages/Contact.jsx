@@ -52,7 +52,7 @@ function Contact() {
                             </div>
                             <div className='w-full flex flex-col lg:col-span-2'>
                                 <label htmlFor="message">Message</label>
-                                <textarea name="message" id="message" placeholder='message' cols="20" rows="10" className='resize-none rounded-md p-3 outline-none'></textarea>
+                                <textarea name="message" id="message" placeholder='message' cols="10" rows="5" className='resize-none rounded-md p-3 outline-none'></textarea>
                             </div>
                             <div className='w-full flex justify-start'>
                                 <button type='submit' className='py-2 px-6 bg-yellow-600 rounded-md font-medium'>Send Message</button>
