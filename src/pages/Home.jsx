@@ -28,7 +28,7 @@ function Home() {
     ];
 
     return (
-        <main>
+        <div>
             <section className='relative min-h-screen flex p-5 md:p-10'>
                 <div className="absolute inset-0 w-full h-full">
                     <Carousel autoplay autoplayInterval={3000} slidesToScroll={1} wrapAround={true} withoutControls animation='fade'>
@@ -75,7 +75,7 @@ function Home() {
             <SuccessStories />
             <Subscribe />
             <Contact />
-        </main>
+        </div>
     );
 }
 
