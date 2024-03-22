@@ -1,5 +1,7 @@
 export const COMPANY_NAME = "Thrive";
 export const COMPANY_ABOUT = "Stay connected and enhance your English learning journey! Subscribe to our newsletter for exclusive content, updates, and special offers.";
+export const COMPANY_EMAIL = "info@example.com";
+export const COMPANY_PHONE_NUMBER = "(+21) 123 456 586"
 export const COMPANY_ADDRESS = "123 Main Street, Cityville, Country XYZ.";
 export const LOGO_IMG_1 = require('./assets/logo-1.jpg');
 export const LOGO_IMG_2 = require('./assets/logo-2.jpg');
@@ -39,8 +41,8 @@ export const HERO_TYPING_TITLE = [
 
 export const HERO_SUB_HEADING = "Embark on a Journey of Discovery and Growth: Where Learning Meets Innovation, Inspiring You to Explore, Engage, and Excel in Every Endeavor."
 
-export const CONTACT_TITLE = "Courses"
-export const CONTACT_SUB_HEADING = "Crestest offers a wide range of preparatory courses";
+export const COURSE_TITLE = "Courses"
+export const COURSE_SUB_HEADING = "Crestest offers a wide range of preparatory courses";
 
 export const FEATURE_TITLE = "Features"
 export const FEATURE_SUB_HEADING = "Unleash the Full Potential of Thrive with These Cutting-edge Features";
@@ -100,6 +102,9 @@ export const BOOK_DEMO_TITLE = "Why Thrive is a best option?"
 export const BOOK_DEMO_DESCRIPTION = "Thrive is a platform where we provide live sessions at a very affordable cost so that everyone can enroll here to improve their communication skills."
 export const BOOK_DEMO_BUTTON_TEXT = "Book Demo"
 
+export const CONTACT_US_TITLE = "Get in Touch";
+export const CONTACT_US_SUBTITLE = "We're here to answer any questions you may have. Reach out to us and we'll respond as soon as we can.";
+export const CONTACT_US_FORM_TITLE = "We'd love to hear from you! Let's get in touch"
 
 //images
 export const BG_IMG_1 = require('./assets/240_F_170055665_0wz6obwYZ3rk0m788vuIEk8WzIscfgVV.jpg');
