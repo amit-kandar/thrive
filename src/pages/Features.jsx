@@ -1,5 +1,6 @@
 import React from 'react';
-import { SECTION_BG_IMG, FEATURE_SUB_HEADING, FEATURE_TITLE, FEATURE_DETAILS } from '../constants';
+import { SECTION_BG_IMG, FEATURE_SUB_HEADING, FEATURE_TITLE } from '../constants';
+import { FEATURE_DETAILS } from '../utils/featureDetails';
 import FeatureCard from '../components/FeatureCard';
 
 function Features() {

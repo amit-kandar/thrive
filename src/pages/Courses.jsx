@@ -1,5 +1,6 @@
 import React from 'react'
-import { CONTACT_TITLE, CONTACT_SUB_HEADING, COURSES_DETAILS } from '../constants'
+import { CONTACT_TITLE, CONTACT_SUB_HEADING } from '../constants'
+import { COURSES_DETAILS } from '../utils/courseDetails'
 import CourseCard from '../components/CourseCard'
 
 function Courses() {

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { COMPANY_NAME, COURSES_DETAILS, LOGO_IMG_2, NAV_LINKS, OUR_COMPANY_TEXT, OUR_COURSES_TEXT, SECTION_BG_IMG } from '../constants';
+import { COMPANY_NAME, LOGO_IMG_2, NAV_LINKS, OUR_COMPANY_TEXT, OUR_COURSES_TEXT, SECTION_BG_IMG } from '../constants';
+import { COURSES_DETAILS } from '../utils/courseDetails';
 
 function Footer() {
     return (

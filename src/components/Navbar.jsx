@@ -40,7 +40,7 @@ function Navbar() {
 
     return (
         <nav className={`fixed z-50 w-full ${isScroll ? "bg-white text-black" : 'bg-transparent'}`}>
-            <div className="w-full flex justify-between items-center border-b px-5 sm:px-10 py-3">
+            <div className="w-full flex justify-between items-center border-b border-white px-5 sm:px-10 py-3">
                 {/* logo and name */}
                 <Link to="/" className="flex items-center gap-3 outline-none">
                     {/* logo */}
