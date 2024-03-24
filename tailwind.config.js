@@ -16,6 +16,10 @@ module.exports = {
           "from": { transform: "translateX(0)" },
           "to": { transform: "translateX(-100%)" }
         }
+      },
+      screens: {
+        "xs": "400px",
+        "lg": "1028px"
       }
     },
   },

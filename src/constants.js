@@ -11,19 +11,12 @@ export const NAV_LINKS = [
     { text: "Home", path: "/" },
     { text: "Courses", path: "/courses" },
     { text: "Pricing Plan", path: "/pricing-plan" },
-    { text: "About", path: "/about" },
-    { text: "Contact Us", path: "/contact" },
-    { text: "Join Us", path: "/join-us" }
+    { text: "About", path: "/about" }
 ];
 
-export const NAVLINK_GET_STARTED = {
-    text: "Get Started",
-    path: "/sign-in"
-}
-
-export const NAVLINK_SCORE_CARD = {
-    path: "/score-card",
-    text: "Score Card"
+export const NAVLINK_CONTACT_US = {
+    path: "/contact",
+    text: "Contact Us"
 }
 
 export const HERO_TYPING_TITLE = [
